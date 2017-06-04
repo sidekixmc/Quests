@@ -80,6 +80,13 @@
         </dependency>
         <dependency>
             <groupId>org.bukkit</groupId>
+            <artifactId>spigot112</artifactId>
+            <version>1.12-R0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/craftbukkit-1.12.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.bukkit</groupId>
             <artifactId>bukkit1710</artifactId>
             <version>1.7.10-R0.1</version>
             <scope>system</scope>
@@ -102,7 +109,7 @@
         <dependency>
             <groupId>net.citizensnpcs</groupId>
             <artifactId>citizens</artifactId>
-            <version>2.0.16-SNAPSHOT</version>
+            <version>2.0.22-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
